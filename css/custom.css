@@ -118,3 +118,13 @@ ol.alpha  li:before {
 .mt-50{
     margin-top: 50px;
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .mainTitle{
+        font-size: 1.5em !important;
+    }
+    #hero .lead {
+        font-size: 12px !important;
+    }
+}
