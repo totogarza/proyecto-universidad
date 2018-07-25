@@ -1,0 +1,120 @@
+/*! Place your custom styles here */
+
+#menu1 {
+    background-color: #fff;
+    padding-bottom: 2em;
+}
+
+.menu-horizontal li a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.eje-title {
+    padding-bottom: 1.2em;
+}
+
+.eje-tag {
+    color: #000;
+}
+
+#logo:hover {
+    text-decoration: none;
+}
+
+.menu-horizontal li a {
+    color: #000 !important;
+}
+
+hr.short {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    border-color: #fff;
+}
+
+ol, ul {
+    padding: 0 20px;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+}
+
+ol li {
+    counter-increment: item;
+}
+
+ol  li:before {
+    content: counter(item)". ";
+    font-weight: 900;
+    color: #000;
+  }
+
+ol.romans {
+    list-style: none;
+    counter-reset: roman;
+}
+
+
+ol.romans li {
+    counter-increment: item;
+}
+
+ol.romans  li:before {
+    content: counter(item, upper-roman)". ";
+    font-weight: 900;
+    color: #000;
+}
+
+ol.alpha {
+    list-style: none;
+    counter-reset: alphab;
+}
+
+
+ol.alpha li {
+    counter-increment: alphab;
+}
+
+ol.alpha  li:before {
+    content: counter(alphab, lower-alpha)". ";
+    font-weight: 900;
+    color: #000;
+}
+
+.black {
+    color: #000;
+}
+
+
+
+.eje-1 {
+    background-color: #bdf2da;
+}
+.eje-2 {
+    background-color: #e7bd5e   ;
+}
+.eje-3 {
+    background-color: #cdc8e8;
+}
+.eje-4 {
+    background-color: #f2d2c1;
+}
+.eje-5 {
+    background-color: #8cbd80;
+}
+.eje-6 {
+    background-color: #aed6d3;
+}
+.eje-7 {
+    background-color: #a295e6;
+}
+.eje-8 {
+    background-color: #465186;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
